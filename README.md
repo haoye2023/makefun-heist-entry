@@ -35,3 +35,4 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 - `game/src/render.js` — all canvas drawing: room, cones, HUD, screens
 - `game/src/shots.js` — deterministic screenshot poses
 - `game/src/config.js`, `game/src/random.js` — tuning constants, seeded RNG
+MIT licensed. No network requests: every file the game loads lives under `game/`.
